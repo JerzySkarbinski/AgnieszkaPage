@@ -1,0 +1,42 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    overflow-x: auto;
+}
+
+.caption {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table__cell {
+    color: black;
+    border: 1px solid black;
+    padding: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background: rgb(211, 211, 177);
+    font-weight: normal;
+}
+
+
+.table__row:nth-child(even) {
+    background: rgb(175, 169, 169);
+}
+
+.table__row:nth-child(odd) {
+    background: lightgray;
+}
+
+.table__row:hover {
+    background: white;
+}
+.table__scrolling {
+ overflow-x: auto;
+}
