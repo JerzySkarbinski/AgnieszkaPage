@@ -3,7 +3,7 @@ let body = document.querySelector(".js__body");
 let text = document.querySelector(".js__submit--text")
 
 button.addEventListener("click", () => {
-    body.classList.toggle("body__dark");   
+    body.classList.toggle("body__dark");
 
 
     if (body.classList.contains("body__dark")) {
