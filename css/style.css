@@ -23,3 +23,12 @@ html {
 
 }
 
+ .body__header {   
+    color: white; 
+    text-align: center;
+    background-color: teal;
+    border-radius: 5px;
+    max-width: 405px;
+  
+ }
+
