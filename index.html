@@ -23,6 +23,7 @@
   <link href="css/table.css" rel="stylesheet">
   <link href="css/header.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
   <script defer src="js/script.js"></script>
   
 </head>
@@ -138,9 +139,37 @@
   </table>
 
   <section>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio voluptatibus repudiandae. Architecto explicabo
-    quos repudiandae? Animi est dolorem praesentium necessitatibus adipisci itaque labore rerum, illum explicabo, quae,
-    sint porro.
+    <form class="form js-form">
+      <h1 class="body__header">Przelicznik walut</h1>
+  
+      <p>Pola wymagane oznaczone są gwiazdką. </p>
+  
+      <p>
+        <label>
+          <span class="form__labelText">
+            Kwota w zł*
+          </span>
+          <input placeholder="Wpisz kwotę w zł" class="form__field js-amount" type="number" requied step="0.01">
+        </label>
+      </p>
+      <p>
+        <label>
+          <span class="form__labelText">
+            Waluta:
+          </span>
+          <select class="form__field js-currency">
+            <option value="USD">Dolar amerykański</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">Funt brytyjski</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <button class="form__button">Przelicz</button>
+      </p>
+      <p>Według tabeli kursów NBP z dnia 23.12. 2020 roku.</p>
+      <p>Wynik: <strong class="js-result"></strong></p>
+    </form>
   </section>
 
   <footer class="footer">
