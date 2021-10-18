@@ -1,0 +1,21 @@
+.form__labelText {
+  
+    width: 100%;
+    max-width: 100px;
+    display: inline-block;
+    
+ }
+ .form__field {
+     background-color: rgb(220, 235, 213);
+     width: 100%;
+     max-width: 300px;
+     font-size: 20px;
+     border-radius: 5px;
+ }
+ .form__button{
+     width: 100%;
+     max-width: 405px;
+     font-size: 20px;
+     border-radius: 5px;
+     
+ }
