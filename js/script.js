@@ -46,6 +46,6 @@ formElement.addEventListener("submit", (event) => {
     }
     resultElement.innerHTML = `${amount.toFixed(2)} PLN = <strong> ${result.toFixed(2)} ${currency} </strong>`;
 });
-
-
+   
+     
 
